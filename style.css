@@ -5,13 +5,15 @@ main {
     grid-template-columns: 1fr 2fr 2fr;
     grid-template-areas: "h h h" "n ar as" "f f f";
     font-family: 'Times New Roman', Times, serif;
+
 }
 
 header {
-    background-color: aqua;
+    background-image: url(fejlec.jpg);
     grid-area: h;
     color: white;
-    text-align: center;
+    text-align:center;
+    height: 110px;
 
 }
 
